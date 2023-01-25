@@ -1,0 +1,711 @@
+body {
+    overflow-x: hidden;
+}
+
+.navbarTop {
+    background-color: rgb(32, 72, 79);
+
+    .navbar {
+        button {
+            span {
+                color: white;
+            }
+        }
+
+        a {
+            color: white;
+        }
+
+        .navbar-collapse {
+
+
+            button {
+                width: 82px;
+                height: 41px;
+                background-color: #B8E4DA;
+                border-radius: 8px;
+                margin: 0 13px;
+
+
+                font-family: 'Plus Jakarta Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 150%;
+
+
+            }
+
+            .nav-end {
+                color: white;
+                font-family: 'Plus Jakarta Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 165%;
+
+                p {
+                    margin: 7px 2px;
+                }
+            }
+
+            ul {
+                width: 100%;
+
+                .nav-item {
+                    .nav-link {
+                        color: white;
+                        font-family: 'Plus Jakarta Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+
+                    }
+                }
+            }
+        }
+
+        .navbar-brand {
+            h4 {
+                position: absolute;
+                width: 99px;
+                height: 30px;
+                left: 40px;
+                top: 14px;
+                font-family: 'Plus Jakarta Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 30px;
+                color: white;
+
+
+            }
+        }
+    }
+}
+
+.hero {
+    .imgbox {
+
+        border-radius: 12px;
+        margin-top: 7rem;
+
+    }
+
+    .project {
+        border: 1px solid #f4eeee;
+        width: 267px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 40px rgb(138 138 138 / 4%);
+        border-radius: 12px;
+        padding: 17px;
+        position: absolute;
+        right: 21rem;
+        bottom: 6rem;
+
+        h4 {
+            padding: 10px 3px;
+        }
+
+        i {
+            border: 1px solid rgb(220, 242, 237);
+            background-color: rgb(220, 242, 237);
+            padding: 3px;
+            border-radius: 13px;
+
+        }
+
+        .border1 {
+            border: 1px solid rgb(233, 237, 238);
+            width: 9rem;
+            height: 13px;
+            border-radius: 20px;
+            background-color: rgb(233, 237, 238);
+        }
+
+        .border1x {
+            width: 11rem;
+            margin-bottom: 3rem;
+
+        }
+
+        .border3 {
+            border: 1px solid rgb(233, 237, 238);
+            display: inline-block;
+            width: 80px;
+            height: 13px;
+            border-radius: 20px;
+            margin-top: 5px;
+            background-color: rgb(233, 237, 238);
+            margin: 0 9px;
+        }
+
+
+    }
+
+    .avatar {
+        position: absolute;
+        border: 1px solid #f4eeee;
+        width: 198px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 40px rgb(138 138 138 / 4%);
+        border-radius: 12px;
+        padding: 17px;
+        text-align: center;
+        left: 15rem;
+        bottom: 9rem;
+
+        img {
+            width: 63px;
+            height: 63px;
+        }
+
+        .borderavatar {
+
+            .border1 {
+                border: 1px solid rgb(233, 237, 238);
+                width: 9rem;
+                height: 13px;
+                border-radius: 20px;
+                background-color: rgb(233, 237, 238);
+                margin: auto;
+
+
+            }
+        }
+    }
+
+    .projectupdate {
+        display: flex;
+        position: absolute;
+        border: 1px solid #f4eeee;
+        width: 326px;
+        height: 121px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 40px rgb(138 138 138 / 4%);
+        border-radius: 12px;
+        padding: 17px;
+        left: 4rem;
+        bottom: -43px;
+
+
+        i {
+            border: 1px solid rgb(220, 242, 237);
+            background-color: rgb(220, 242, 237);
+            padding: 13px;
+            border-radius: 21px;
+            margin: 3px 6px;
+        }
+
+        .projectabout {
+            .border1 {
+                border: 1px solid rgb(233, 237, 238);
+                width: 15rem;
+                height: 13px;
+                border-radius: 20px;
+                background-color: rgb(233, 237, 238);
+            }
+
+            .border1x {
+                width: 9rem;
+                margin-bottom: 3rem;
+
+            }
+        }
+
+    }
+
+    .twoworkpage {
+        margin-top: 7rem;
+
+        p {
+            font-size: 18px;
+        }
+
+        button {
+            background-color: rgb(32, 72, 79);
+            color: white;
+        }
+    }
+
+
+
+    button {
+        border: 1px solid rgb(184, 228, 218);
+        width: 229px;
+        height: 37px;
+        border-radius: 8px;
+        background: rgb(184, 228, 218);
+    }
+
+}
+
+.socialprooflogo {
+    border: 1px solid black;
+    width: 74%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 10px;
+    padding: 27px;
+    box-shadow: 10px 10px 5px 0px rgba(227, 218, 218, 0.75);
+
+    h4 {
+        text-align: center;
+        font-family: 'Plus Jakarta Sans';
+        color: #20484F;
+    }
+
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+        img {
+            width: 100px;
+        }
+    }
+}
+
+
+
+.featureblocks {
+    p {
+        font-family: 'Plus Jakarta Sans';
+
+    }
+
+    ;
+
+    .oclock {
+        margin-top: 2rem;
+
+        p {
+            font-family: 'Plus Jakarta Sans';
+
+        }
+
+        h5 {
+            margin-top: 2rem;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 23px;
+        }
+
+        img {
+            border: 1px solid #DCF2ED;
+            padding: 16px;
+            border-radius: 12px;
+            background-color: #DCF2ED;
+        }
+    }
+}
+
+.metrics {
+
+
+    .card {
+        border-radius: 24px;
+        background-color: rgb(32, 72, 79);
+        color: white;
+
+        .aproval {
+            margin-left: 37px;
+            margin-top: 65px;
+
+        }
+
+        .rating {
+            font-size: 50px;
+            margin-left: 37px;
+        }
+    }
+}
+
+.ctas {
+    background-color: rgb(32, 72, 79);
+    padding: 2rem;
+
+    h1 {
+        color: white;
+    }
+
+    button {
+        border: 1px solid gray;
+        background: white;
+        padding: 10px;
+        border-radius: 8px;
+        width: 50%;
+    }
+
+    .checked {
+        p {
+            font-family: 'Plus Jakarta Sans';
+            color: white;
+        }
+
+        i {
+            border: 1px solid rgb(220, 242, 237);
+            padding: 4px;
+            margin: 0 10px;
+            width: 24px;
+            border-radius: 6px;
+            height: 24px;
+            background: rgb(220, 242, 237);
+        }
+    }
+
+}
+
+.images {
+    p {
+        font-family: 'Plus Jakarta Sans';
+    }
+
+    img {
+        width: 100%;
+
+    }
+}
+
+.tabsection {
+    text-align: center;
+
+    .imgsvg {
+        img {
+            width: 100%;
+        }
+
+    }
+
+    .tabmenu {
+        justify-content: space-around;
+        margin: auto;
+        position: relative;
+    }
+
+    .tabmenu::before {
+        content: "";
+        height: 1px;
+        width: 100%;
+        background-color: rgb(227, 232, 233);
+        top: 26px;
+        position: absolute;
+    }
+
+    .tabmenu::after {
+        content: "";
+        width: 28%;
+        height: 3px;
+        background-color: rgb(32, 72, 79);
+        top: 26px;
+        position: absolute;
+        left: 1px;
+    }
+}
+
+.pageheader {
+
+    p {
+        font-family: 'Plus Jakarta Sans';
+
+    }
+
+    img {
+        width: 100%;
+    }
+
+}
+
+.quotes {
+    text-align: center;
+
+    i {
+        font-size: 38px;
+    }
+
+    .quoteIcon {
+
+        i {
+            color: #B8E4DA;
+            font-size: 30px;
+
+        }
+    }
+
+    .quotesteam {
+        margin-left: auto;
+        margin-right: auto;
+        width: 19%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        .quotesabout {
+            div {
+                margin: -13px 2px;
+            }
+        }
+    }
+}
+
+.team {
+    p {
+        font-family: 'Plus Jakarta Sans';
+        text-align: center;
+    }
+
+    button {
+        width: 243px;
+        height: 58px;
+        background-color: rgb(32, 72, 79);
+        color: white;
+        margin-left: 29rem;
+        margin-top: 4rem;
+    }
+}
+
+.team {
+    .teamcard {
+        text-align: center;
+
+        p {
+            font-size: 14px;
+            color: #20484F;
+        }
+
+        img {
+            margin-bottom: 11px;
+            margin-top: 13px;
+            width: 100%;
+        }
+
+        span {
+            i {
+                border: 1px solid #d6d0d0;
+                border-radius: 14px;
+                padding: 6px 6px;
+                margin: 0 4px;
+            }
+        }
+    }
+}
+
+
+h2 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.quotes {
+    .quoteabout {
+        margin: -29px 56px;
+
+    }
+}
+
+.pricing {
+    .textdiv {
+        font-family: 'Plus Jakarta Sans';
+        text-align: center;
+        margin-bottom: 21px;
+        margin-top: 21px;
+    }
+
+    .divcard {
+        background-color: rgb(220, 242, 237);
+    }
+
+    .carddiv {
+        border: 1px solid black;
+        padding: 18px;
+        border-radius: 11px;
+        width: 80%;
+
+    }
+
+    .checkedprising {
+        p {
+            i {
+                border: 1px solid rgb(220, 242, 237);
+                padding: 4px;
+                background: rgb(220, 242, 237);
+                border-radius: 5px;
+                margin: 10px 6px;
+            }
+        }
+    }
+
+    button {
+        width: 100%;
+        background: rgb(32, 72, 79);
+        color: white;
+        padding: 4px;
+        border-radius: 9px;
+
+    }
+}
+
+footer {
+    background-color: #20484F;
+    color: white;
+    padding: 30px;
+
+    p {
+        color: #DCF2ED;
+    }
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.copyright::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    right: 9px;
+}
+
+
+
+.icon {
+    i {
+        border: 1px solid #d6d0d0;
+        border-radius: 14px;
+        padding: 6px 6px;
+        margin: 0 4px
+    }
+}
+
+
+
+@media screen and (max-width: 1200px) and (min-width: 320px) {
+    .navbarTop {
+
+        nav {
+            .navbar-collapse {
+                .nav-end {
+                    button {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .socialprooflogo {
+        width: 100%;
+
+        .logo {
+            img {
+                width: 65px;
+            }
+        }
+    }
+
+    .metrics {
+        .card {
+            margin: 4px;
+        }
+    }
+
+    .hero {
+        .boxImg {
+            .imgbox {
+                display: none;
+                margin-top: 0;
+
+            }
+
+            .project {
+                position: static !important;
+                width: 359px;
+                margin-top: 1rem;
+
+                button {
+                    width: 327px;
+
+                }
+            }
+
+            .avatar {
+                position: static !important;
+                width: 359px;
+                margin-top: 1rem;
+            }
+
+            .projectupdate {
+                position: static !important;
+                margin-top: 1rem;
+                width: 359px;
+            }
+
+        }
+
+        .twoworkpage {
+            margin-bottom: 59px;
+            margin-top: 2rem;
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+
+    }
+
+    .ctas {
+        .checked {
+            display: block !important;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .images {
+        img {
+            margin: 10px;
+
+        }
+    }
+
+    .pageheader {
+        h2 {
+            margin-top: 2rem;
+
+        }
+
+    }
+
+    .pricing {
+        .carddiv {
+            width: 100%;
+        }
+    }
+
+    .quotes {
+        .quotesteam {
+            width: 65%;
+        }
+    }
+
+    footer {
+        width: 100%;
+    }
+
+}
